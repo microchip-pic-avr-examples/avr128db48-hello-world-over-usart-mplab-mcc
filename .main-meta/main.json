@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-hello-world-over-usart-mplab-mcc",
-        "version": " ",
-        "displayName": "AVR128DB48 hello world over usart mplab mcc",
+        "version": "1.0.0",
+        "displayName": "Send Hello World! over USART",
         "projectName": "avr128db48-hello-world-over-usart-mplab-mcc",
         "shortDescription": "This example uses the MCC Melody Library to show how to configure the USART on the AVR128DB48 CNANO to print Hello World in the MPLAB Data Visualizer This example can be used with MPLABX or MPLAB XPRESS IDE",
         "ide": {
@@ -15,16 +15,16 @@
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.31.0"
+                "semverRange": "^2.32.0"
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.6.88"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",            
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,10 +36,17 @@
                 "versionRange": "*"
             }
         },
-        "author": "Erling Holten Wiken",
-        "subcategories": [],
-        "peripherals": [],
-        "keywords": [],
+        "author": "Erling Holten Wiken & Bjørnar Moe Remmen",
+        "subcategories": [
+            ["Peripherals", "USART"]
+        ],
+        "peripherals": [
+            "USART"
+        ],
+        "keywords": [
+            "Data Visualizer",
+            "Melody"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
