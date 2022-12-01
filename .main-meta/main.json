@@ -1,5 +1,5 @@
 {
-    "metaDataVersion": "1.0.0",
+    "metaDataVersion": "1.3.0",
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
@@ -37,9 +37,6 @@
             }
         },
         "author": "Erling Holten Wiken & Bjørnar Moe Remmen",
-        "subcategories": [
-            ["Peripherals", "USART"]
-        ],
         "peripherals": [
             "USART"
         ],
